@@ -1,5 +1,21 @@
-$color-background: rgb(142 231 196);
+/* GLOBAL RESETS */
 
-body {
-    background: $color-background;
-}
+* { box-sizing: border-box; }
+
+// VARIABLES
+
+$color-text-body: rgb(0 0 0 / .8);
+$color-text-headings: rgb(0 0 0 / 1);
+$color-accent: rgb(23 206 188);
+$color-accent-dark: rgb(10 149 135);
+
+$color-lightgrey: rgb(0 0 0 / .3);
+
+$font-family-sans: 'Avenir Next', Arial, Helvetica, sans-serif;
+$font-family-serif: Georgia,'Times New Roman', Times, serif;
+
+// IMPORTS
+
+@import "partials/toc";
+@import "partials/typography";
+@import "partials/buttons";
