@@ -66,3 +66,17 @@ hr {
     margin: .25em 0;
     color: $color-lightgrey;
 }
+
+/* SECTION HEADING */
+
+.section-heading {
+    font-size: 1em;
+    font-family: 'Avenir Next', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    border-bottom: 5px solid $color-accent;
+    display: table;
+    padding: 0 0 .5em 0;
+    margin: 1em auto 3em auto;
+}
